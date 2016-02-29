@@ -1,0 +1,8 @@
+<Map srs="+proj=utm +zone=32 +ellps=WGS84 +datum=WGS84 +units=m +no_defs">
+  <Layer name="map">
+    <Datasource>
+      <Parameter name="type">raster</Parameter>
+      <Parameter name="file">{{ filename }}</Parameter>
+    </Datasource>
+  </Layer>
+</Map>

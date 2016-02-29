@@ -1,0 +1,10 @@
+{% load menubuilder %}
+{% load admin_urls %}
+
+{% url 'index_url' as home %}
+{% url 'admin:index'  as admin_url%}
+
+<div id="navigation">
+    <a class="{% active_tag request home %}" href="{{ home }}">Home</a>
+    <a class="{% active_tag request admin_url %}" href="{{  admin_url }}">Admin</a>
+</div>

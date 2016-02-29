@@ -1,0 +1,12 @@
+<Map srs="+proj=utm +zone=32 +ellps=WGS84 +datum=WGS84 +units=m +no_defs">
+  <Layer name="map">
+    <Datasource>
+      <Parameter name="type">raster</Parameter>
+      <Parameter name="file">C:\Users\Pavel.Voropaev\PycharmProjects\GPSCAMS\MEDIA_ROOT\\map_images/638c30eaeac0Untitled.tiff</Parameter>
+      <Parameter name="lox">0</Parameter>
+      <Parameter name="loy">0</Parameter>
+      <Parameter name="hix">1</Parameter>
+      <Parameter name="hix">1</Parameter>
+    </Datasource>
+  </Layer>
+</Map>

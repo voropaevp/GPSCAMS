@@ -1,0 +1,5 @@
+2.7 python !! 32 bit !!
+
+Mapnik 2.2.0
+odbc azure
+
